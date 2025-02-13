@@ -360,7 +360,7 @@ nav .fa-solid{
 @media only screen and (max-width: 600px) {
     /* Header styling */
     #header {
-        background-image: url(images/smallscreenbackgroundfinal.png);
+        background-image: url(smallscreenbackgroundfinal.png);
     }
 
 
