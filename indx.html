@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Vineeth Yelagandula Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/ead2bb25ac.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/VINEETH__2_-removebg-preview.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Skills</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+
+                    <!--Adding the typing back effect-->
+                <p> <span id="typing-text"></span><span class="cursor"></span></p>
+                <!--Effect END-->
+                    <!--<p>Software Developer</p>-->
+                    <h1>Hi, I am <span>Vineeth</span><br>Yelagandula</h1>
+                </div>
+            </div>    
+        </div>  
+        <!-- ---------about------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/usrmoi.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I am a passionate full stack Java developer with a strong foundation in backend and frontend development. My expertise lies in<span style ="font-weight: bold;color: #f90a56;"> Java</span>,<span style = "font-weight: bold;color: #f90a56;"> Spring Boot</span>, and<span style = "font-weight: bold;color: #f90a56;"> J2EE</span>, where I design and build scalable, high-performance applications. I have experience working with <span style ="font-weight: bold;color: #f90a56;"> RESTful APIs</span>, and cloud technologies like <span style ="font-weight: bold;color: #f90a56;">AWS</span>, <span style ="font-weight: bold;color: #f90a56;">Kubernetes</span>, and <span style ="font-weight: bold;color: #f90a56;">Docker</span> to develop efficient and reliable systems.
+                            Beyond backend development, I am skilled in <span style ="font-weight: bold;color: #f90a56;">React.js</span>,<span style ="font-weight: bold;color: #f90a56;">JavaScript</span>, and UI frameworks, allowing me to create seamless and user-friendly interfaces. My hands-on experience with databases like<span style ="font-weight: bold;color: #f90a56;"> MySQL</span>,<span style ="font-weight: bold;color: #f90a56;"> PostgreSQL</span>, and <span style ="font-weight: bold;color: #f90a56;">MongoDB</span>, along with <span style ="font-weight: bold;color: #f90a56;">CI/CD pipelines</span> and <span style ="font-weight: bold;color: #f90a56;">DevOps tools</span>, ensures smooth application deployment and maintenance.
+                            Through internships and projects, I have worked on real-world applications, including a learning management system and an e-commerce platform, optimizing performance and enhancing user experience. I am eager to continue building innovative solutions and growing as a software engineer in dynamic environments.</p>
+                             <div class="tab-title">
+                                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                                <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                                <p class="tab-links"onclick="opentab('Education')">Education</p>
+                             </div>
+                             <div class="tab-contents active-tab" id="Skills">
+                                <ul>
+                                    <li><span>Programming and Frameworks</span><br>Java, J2EE, Spring Boot, Spring MVC, C++, Python, JavaScript, Node.js, React.js, R Programming, Next.js</li>
+                                    <li><span>Databases & Data Management</span><br>MySQL, PL/SQL, SQL/PostgreSQL, MongoDB, AWS RDS, Cassandra, Oracle</li>
+                                    <li><span>Cloud & DevOps</span><br>AWS (EC2, S3, Lambda, CDK), Kubernetes, Docker, Apache Kafka, Jenkins, Build Pipelines, CI/CD, DevOps</li>
+                                    <li><span>Web & UI Technologies</span><br> HTML5, CSS3, JavaScript, React.js, Vue.js, Bootstrap, jQuery, TypeScript, GraphQL, Django, Carbon System Design</li>
+                                    <li><span>Testing & Automation</span><br>Selenium, JUnit, Cucumber, Automated Testing, Blackbox Testing, Functional Testing, Manual Testing, Performance Testing, Regression Testing, Smoke Testing, System Integration Testing, Unit Testing, User Acceptance Testing</li>
+                                    <li><span>Architecture & Microservices</span><br>Application Architecture, Data Architecture, Infrastructure Architecture, Microservices</li>
+                                    <li><span>Developer Tools</span><br>Git, Postman, Splunk, Linux/Unix, Visual Studio Code, IntelliJ, Package Management (npm, yarn)</li>
+                                    <li><span>Software Development Methodologies</span><br> Agile SDLC, Waterfall SDLC, REST, JSON</li>
+                                    <li><span>Soft Skills</span><br>UX/UI Design, Problem-Solving, Time Management, Communication</li>
+                                </ul>
+                            </div>
+                            <!-- writ th stuff for xpirinc -->    
+                            <div class="tab-contents" id="Experience">
+                                <ul>
+                                    <li><span>January 2023 - July 2023</span><br>Full Stack Developer Intern</li>
+                                    <p>
+                                        Designed and implemented a user analytics dashboard using the MERN stack (MongoDB, Express, React.js, Node.js), improving user
+                                        engagement by 15% through real-time insights and data visualization.
+                                        Enhanced backend functionality using Node.js to support high-traffic data requests, ensuring system scalability and reliability.
+                                        Improved customer experience by analyzing feedback from multiple data sources, enabling data-driven business decisions.
+                                    </p>
+                                   <!-- <li><span>03/2023-05/2023</span><br>Software Development Engineer Intern</li> -->
+                                    <li><span>January 2022 - July 2022</span><br>Web Development Intern</li>
+                                    <p>
+                                        Improved website responsiveness and enhanced user experience by optimizing loading time by 25% using JavaScript frameworks (React.js,
+                                        JQuery) and CSS animations, resulting in a 15% increase in user retention.
+                                        Integrated Bootstrap for consistent and responsive UI, ensuring cross-platform compatibility across desktop and mobile devices, leading
+                                        to a 10% increase in mobile traffic
+                                    </p>
+                                </ul>
+                            </div>
+                            <!-- writ th stuff for Studis/ducation -->
+                            <div class="tab-contents" id="Education">
+                                <ul>
+                                    <li><span>2025</span><br>Master of Science in Computer Science from The University of Dayton</li>
+                                    <p><span style ="font-weight: bold;color: #f90a56;">
+                                    GPA: 3.8</p></span>
+                                    <p>
+                                        <span style ="font-weight: bold;color: #f90a56;">Coursework:</span> Advanced Programming, Data Structures and Algorithms, Advanced Storage Technologies, Object Oriented Programming, kernels,
+                                    Internals, Operating Systems, Job Scheduling, Resource Management, File Systems, Performance Engineering
+                                    </p>
+                                    <li><span>2023</span><br>Bachelor Of Technology in Computer Science from Sreenidhi Institute of Science and Technology</li>
+                                    <p><span style ="font-weight: bold;color: #f90a56;">
+                                    GPA: 3.2</p></span>
+                                    <p>
+                                        <span style ="font-weight: bold;color: #f90a56;">Coursework:</span> Data Base Management System, JAVA Object-Oriented Programming, Python Programming, Machine Learning.
+                                    </p>
+                                    <li><span>Placholdr</span><br>placholdr</li>
+                                </ul>
+                            </div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+        <!-----------services------------------ -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Skills</h1>
+                <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Software Development</h2>
+                    <p>Designed <span style ="font-weight: bold;color: #f90a56;">RESTful APIs with Spring Web</span>, achieving a 30% reduction in response time and a 25% boost in data retrieval speed using <span style ="font-weight: bold;color: #f90a56;">Spring Data
+                        JPA.</span>
+
+                        Established <span style ="font-weight: bold;color: #f90a56;">JWT-based security</span> for role-based access control, enhancing user data protection by 40%.
+                        Created modules for course and lecture management,<span style ="font-weight: bold;">administrative overhead by 15%</span>
+
+                        Integrated progress tracking and quiz management features, improving course completion rates by 20%.
+                        Utilized Web socket for real-time updates and <span style ="font-weight: bold;color: #f90a56;">documented APIs with Swagger/OpenAPI</span>, achieving 90% code coverage through thorough unit</p>
+                    <a href="#">Learn More</a>
+
+                </div>
+                <div>
+                    <i class="fa-regular fa-window-restore"></i>
+                    <h2>Web Development</h2>
+                    <p>Improved website responsiveness and enhanced user experience by optimizing loading time by 25% using <span style ="font-weight: bold;color: #f90a56;">JavaScript frameworks (React.js,
+                        JQuery) and CSS animations</span>, resulting in a 15% increase in user retention.
+
+                        Integrated <span style ="font-weight: bold;color: #f90a56;">Bootstrap</span> for consistent and responsive UI, ensuring cross-platform compatibility across desktop and mobile devices, leading
+                        to a 10% increase in mobile traffic</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Full Stack Development</h2>
+                    <p>Developed a microservices-based e-commerce backend, improving efficiency by 20% in product management and 25% in checkout
+                        times, while reducing stock update delays by 15%.
+                        Integrated secure payment processing with <span style ="font-weight: bold;color: #f90a56;">Stripe</span> and established a persistent shopping cart, enhancing user experience and
+                        transaction reliability.
+                        Achieved 99.9% uptime using <span style ="font-weight: bold;color: #f90a56;">Spring Cloud</span> for resilience and deployed with <span style ="font-weight: bold;color: #f90a56;">Docker</span> and <span style ="font-weight: bold;color: #f90a56;">Kubernetes</span>, resulting in a 30% increase
+                        in overall system performance</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <!----------------portfolio----------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+                <div class="work-list">
+                <div class="work">
+                    <img src="images/freepik__upload__28520.png" >
+                    <div class="layer">
+                        <h3>Learning Managment System</h3>
+                        <p>I developed a web application to manage courses and lectures, improving performance, security, and user experience. By optimizing APIs, enhancing data retrieval, and implementing JWT-based security, I streamlined administrative tasks. Real-time updates were added with WebSockets, and thorough testing ensured high reliability, leading to improved course completion rates and user protection.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" >
+                    <div class="layer">
+                        <h3>Social Media Dashboard</h3>
+                        <p>Developed a Social Media Dashboard within the DENAURLEN application to provide comprehensive analytics and data
+                            insights for user posts.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="images/KSHEERA.jpg" >
+                    <div class="layer">
+                        <h3>Ksheera Autonomous Underwater Vehicle</h3>
+                        <p>Led the development of an AUV network for oceanic data collection, designing robots for navigation and data
+                            collection, implementing data analysis algorithms for evaluating ocean conditions, and securing $2000 in funding for
+                            the KSHEERA project.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+<!-----------------------contact----------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">  
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>yelagandula@udayton.edu</p>
+                <p><i class="fa-solid fa-mobile-screen"></i>+15134002911</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/vineeth-yelagandula/"><i class="fa-brands fa-linkedin"></i>></a>
+                    <a href="https://github.com/Yelagandula"><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i>></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i>></a>
+                </div>
+                <a href="images/vineeth-resume-Adobe-edited.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email">
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form> 
+                    <span id="msg"></span>
+                </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>vineeth yelagandula<i class="fa-regular fa-copyright"></i></p>
+    </div>
+</div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                    
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+
+            }
+
+        </script>
+        <script>
+
+            var sidemenu = document.getElementById("sidemenu")
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxfee8Q27R-D96k2ch3mOlwLksnC69kR41OouBb9Wr252ha5ipAFGLWsYvk2v6qHWal/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response =>{
+                    msg.innerHTML = "High-Five! Your Message Just Launched! I'll Be in Touch Shortly!";
+                    msg.classList.add('show'); 
+                    setTimeout(function(){
+                        msg.classList.remove('show');
+                        form.reset();
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            });
+          </script>
+          <script>
+            const words = ["Software Developer","Web Developer", "Full Stack Engineer", "Java Backend Developer","Masters in Computer Science","Robotics and AI Enthusiast"];
+let i = 0, j = 0, isDeleting = false;
+
+function typeEffect() {
+    let currentWord = words[i];
+    let displayText = currentWord.substring(0, j);
+
+    document.getElementById("typing-text").textContent = displayText;
+
+    if (!isDeleting && j < currentWord.length) {
+        j++;
+        setTimeout(typeEffect, 100); // Typing speed
+    } else if (isDeleting && j > 0) {
+        j--;
+        setTimeout(typeEffect, 35); // Backspace speed
+    } else {
+        isDeleting = !isDeleting;
+        if (!isDeleting) i = (i + 1) % words.length;
+        setTimeout(typeEffect, 1000); // Pause before typing new word
+    }
+}
+
+document.addEventListener("DOMContentLoaded", typeEffect);
+
+          </script>
+    
+</body>
+
+</html>
